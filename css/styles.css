@@ -1,13 +1,26 @@
 body {
-  background: repeating-radial-gradient(red, white, blue);
+  background: linear-gradient(red, white, blue)
 }
 
-.hidden {
-  display: hidden;
+.grid-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .body-1 {
   background-color: white;
   border: solid black 2px;
   text-align: center;
+  grid-area: 1/1/5/2;
+  font-size: 150%;
+}
+
+.hidden {
+  display: none;
+}
+
+.answer {
+  background-color: black;
+  color: white;
 }

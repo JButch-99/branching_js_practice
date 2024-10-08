@@ -17,5 +17,8 @@ window.onload = function() {
     } else {
       under21.removeAttribute("class");
     }
-  };
-};
+  }
+  form.onreset = function(event) {
+    location.reload();
+  }
+}
