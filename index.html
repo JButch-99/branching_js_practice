@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/scripts.js"></script>
+  <title>Vote!</title>
+</head>
+<body>
+  <div class="body-1">
+    <form>
+      <label for="age">Please verify your voting age</label>
+      <input id="age" type="number">
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="over-21" class="hidden">
+      <h1>Voting Resources</h1>
+    </div>
+
+    <div id="under-21" class="hidden">
+      <h1>Try again when you're older</h1>
+    </div>
+  </div>
+</body>
