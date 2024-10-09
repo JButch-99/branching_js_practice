@@ -2,29 +2,43 @@
 <html lang="en-US">
 <head>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <script src="js/scripts.js"></script>
   <title>Vote!</title>
 </head>
 <body>
   <div class="grid-body">
     <div class="body-1">
-      <form>
-        <label for="age">Please verify your voting age</label>
-        <input id="age" type="number">
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-      </form>
+      <div class="input-body">
+        <form>
+          <label for="age">Please verify your voting age</label>
+          <input id="age" type="number">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
       <div class="answer">
         <div id="over-21" class="hidden over21Age">
             <h1>Voting Resource</h1>
+            <img src="https://media.istockphoto.com/id/1001754954/photo/beautiful-young-black-girl-voting.jpg?s=612x612&w=0&k=20&c=5bCGqY8Y-K4fscP_QN9nD2RY6PWPgUG7CWwU372AtxM=" alt="voting" class="vote">
             <ul>
-              <li>Voting Site</li>
+              <li><a href="#">Register Now!</a></li>
               <li></li>
               <li></li>
             </ul>
         </div>
         <div id="under-21" class="hidden under21Age">
           <h1>Try again when you're older</h1>
+        </div>
+      </div>
+    </div>
+    <div class="body-2">
+      <h1 class="title">Voting</h1>
+    </div>
+    <div class="body-3">
+      <div class="row">
+        <div class="col-md-6">
+          
         </div>
       </div>
     </div>

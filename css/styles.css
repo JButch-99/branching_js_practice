@@ -1,19 +1,42 @@
-body {
-  background: linear-gradient(red, white, blue)
+a {
+  font-size: 30px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+li {
+  text-align: left;
+  color: black;
 }
 
 .grid-body {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .body-1 {
-  background-color: white;
+  background-color: lightblue;
   border: solid black 2px;
   text-align: center;
   grid-area: 1/1/5/2;
   font-size: 150%;
+}
+
+.body-2 {
+  grid-area: 1/2/2/5;
+  border: solid black 3px;
+  background-image: url(https://t4.ftcdn.net/jpg/02/70/06/75/360_F_270067508_fNApbiIHDV11l5iIkWQeh6uOvh4fTely.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-3 {
+  grid-area: 2/2/5/5;
+  background-color: white;
+  border: solid black 3px;
+  text-align: center;
 }
 
 .hidden {
@@ -21,6 +44,35 @@ body {
 }
 
 .answer {
-  background-color: black;
-  color: white;
+  background-color: grey;
+  color: black;
+  margin: 0% 10%;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 300%;
+  font-weight: 150%;
+  background-color: red;
+  color: white; 
+  margin: 5% 20%;
+  padding: 2% 2%;
+  border: solid blue 5px;
+}
+
+.vote {
+  object-fit: fill;
+  max-width: auto;
+  max-height: auto;
+  border: solid black 3px;
+}
+
+.input-body {
+  margin: 2% 2%;
+  padding: 2% 2%;
+  border-radius: 25%;
+  border: solid black 3px;
+  background-color: goldenrod;
+  font-size: 115%;
+  font-weight: 500;
 }
