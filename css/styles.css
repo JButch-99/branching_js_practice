@@ -1,3 +1,4 @@
+
 a {
   font-size: 30px;
   color: black;
@@ -12,20 +13,20 @@ li {
 
 .grid-body {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .body-1 {
   background-color: lightblue;
   border: solid black 2px;
   text-align: center;
-  grid-area: 1/1/5/2;
+  grid-area: 1/1/4/2;
   font-size: 150%;
 }
 
 .body-2 {
-  grid-area: 1/2/2/5;
+  grid-area: 1/2/3/6;
   border: solid black 3px;
   background-image: url(https://t4.ftcdn.net/jpg/02/70/06/75/360_F_270067508_fNApbiIHDV11l5iIkWQeh6uOvh4fTely.jpg);
   background-repeat: no-repeat;
@@ -33,10 +34,15 @@ li {
 }
 
 .body-3 {
-  grid-area: 2/2/5/5;
+  grid-area: 3/2/6/6;
   background-color: white;
   border: solid black 3px;
   text-align: center;
+}
+
+.body-4 {
+  grid-area: 4/1/6/2;
+  border: solid black 3px;
 }
 
 .hidden {
@@ -60,13 +66,6 @@ h1.title {
   border: solid blue 5px;
 }
 
-.vote {
-  object-fit: fill;
-  max-width: auto;
-  max-height: auto;
-  border: solid black 3px;
-}
-
 .input-body {
   margin: 2% 2%;
   padding: 2% 2%;
@@ -75,4 +74,44 @@ h1.title {
   background-color: goldenrod;
   font-size: 115%;
   font-weight: 500;
+}
+
+.sign {
+  background-color: silver;
+  margin: 2% 10%;
+  border-radius: 25%;
+  font-size: 450%;
+  border: solid red 3px;
+  padding: 1% 1%;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  color: white;
+}
+
+.unlisted {
+  align-items: center;
+  list-style: none;
+  font-size: 125%;
+  padding: 2% 2%;
+}
+
+.votes {
+  max-width: 100%;
+  border: solid black 3px;
+}
+
+.heading-1 {
+  background-color: goldenrod;
+  padding: 2% 2%;
+  margin: 0% 2%;
+  border: solid black 3px;
+}
+
+.text-1 {
+  padding: 2% 2%;
+  margin: 2% 2%;
+  font-style: oblique;
+  background-color: aqua;
+  border: solid black 2px;
+  border-radius: 25%;
 }
