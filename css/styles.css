@@ -21,12 +21,12 @@ li {
   background-color: lightblue;
   border: solid black 2px;
   text-align: center;
-  grid-area: 1/1/4/2;
-  font-size: 150%;
+  grid-area: 1/1/6/2;
+  font-size: 100%;
 }
 
 .body-2 {
-  grid-area: 1/2/3/6;
+  grid-area: 1/2/2/6;
   border: solid black 3px;
   background-image: url(https://t4.ftcdn.net/jpg/02/70/06/75/360_F_270067508_fNApbiIHDV11l5iIkWQeh6uOvh4fTely.jpg);
   background-repeat: no-repeat;
@@ -34,15 +34,10 @@ li {
 }
 
 .body-3 {
-  grid-area: 3/2/6/6;
-  background-color: white;
+  grid-area: 2/2/6/6;
+  background-color: lightgray;
   border: solid black 3px;
   text-align: center;
-}
-
-.body-4 {
-  grid-area: 4/1/6/2;
-  border: solid black 3px;
 }
 
 .hidden {
@@ -114,4 +109,26 @@ h1.title {
   background-color: aqua;
   border: solid black 2px;
   border-radius: 25%;
+}
+
+.voting {
+  max-width: 75%;
+  margin: 10% 2%;
+  border: ridge black 5px;
+}
+
+.video {
+  border: ridge goldenrod 15px;
+  margin: 2% 5%;
+}
+
+.video-head {
+  margin: 2% 15%;
+  background-color: red;
+  border: solid black 3px;
+  padding: 2% 2%;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  font-size: 300%;
+  color: white;
 }

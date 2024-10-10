@@ -30,12 +30,12 @@ window.onload = function() {
     test.style.backgroundColor = "grey";
     test.style.margin = "2% 10%";
     test.style.border = "solid black 3px";
-    test.style.borderRadius = "25%";
+    test.style.borderRadius = "15%";
     test.style.fontSize = "150%";
+    test.style.padding = "5% 5%";
     h1.style.backgroundColor = "red";
     h1.style.border = "solid black 3px";
   }
-
   h2.onclick = function(e) {
     e.preventDefault;
     let menu = document.getElementById("menu");
@@ -46,7 +46,7 @@ window.onload = function() {
     menu.style.backgroundColor = "grey";
     menu.style.border = "solid black 3px";
     menu.style.margin = "2% 10%";
-    menu.style.borderRadius = "25%";
+    menu.style.borderRadius = "15%";
 
     const button1 = document.getElementById("button1");
     button1.onclick = function() {
@@ -68,4 +68,5 @@ window.onload = function() {
       location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     }
   }
+  
 }
