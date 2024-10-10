@@ -6,23 +6,25 @@ window.onload = function() {
   form.onsubmit = function(event) {
     event.preventDefault();
 
-    let over21 = document.getElementById("over-21");
-    over21.setAttribute("class", "hidden");
-    let under21 = document.getElementById("under-21");
-    under21.setAttribute("class", "hidden");
+    let over18 = document.getElementById("over-18");
+    over18.setAttribute("class", "hidden");
+    let under18 = document.getElementById("under-18");
+    under18.setAttribute("class", "hidden");
     const age = parseInt(document.querySelector("input#age").value);
 
-    if (age > 21) {
-      over21.removeAttribute("class");
-    } else if (age === 21) {
-      over21.removeAttribute("class");
+    if (age > 18) {
+      over18.removeAttribute("class");
+    } else if (age === 18) {
+      over18.removeAttribute("class");
     } else {
-      under21.removeAttribute("class");
+      under18.removeAttribute("class");
     }
   }
+
   form.onreset = function(event) {
     location.reload();
   }
+
   h1.onclick = function(e) {
     let test = document.getElementById("test");
     test.setAttribute("class", "hidden");
